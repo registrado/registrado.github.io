@@ -1,0 +1,42 @@
+:root {
+	--background: purple;
+	--color: white;
+}
+html {
+	min-height: 100%;
+	max-width: 768px;
+	margin: auto;
+}
+body {
+	background-color: var(--background);	
+	color: var(--color);
+	min-height: 100%;
+}
+header {
+	background-blend-mode: color-burn;
+	background-color: var(--background);
+	background-image: url('../img/sprint-track.png');
+	background-size: cover;
+	background-position: bottom center;
+	font-size: 148px;
+	min-height: 24vh;
+	text-align: center;
+}
+header>h1 {
+	-webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+	background-image: url('../img/screenshot_registrado.png');
+	background-size: cover;
+	background-position: bottom center;
+	font-size: 148px;
+	padding-bottom: 32px;
+}
+main {
+	
+}
+h1 {
+	background-
+}
+footer {
+
+}
