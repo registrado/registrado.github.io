@@ -4,11 +4,11 @@
 }
 html {
 	min-height: 100%;
-	max-width: 768px;
+	/*max-width: 768px;*/
 	margin: auto;
 }
 body {
-	background-color: var(--background);	
+	background-color: var(--background);
 	color: var(--color);
 	min-height: 100%;
 }
@@ -23,8 +23,8 @@ header {
 	text-align: center;
 }
 header>h1 {
-	-webkit-background-clip: text; 
-        -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 	background-image: url('../img/screenshot_registrado.png');
 	background-size: cover;
 	background-position: bottom center;
@@ -32,11 +32,11 @@ header>h1 {
 	padding-bottom: 32px;
 }
 main {
-	
+
 }
 h1 {
-	background-
+
 }
 footer {
-
+	text-align: center;
 }
