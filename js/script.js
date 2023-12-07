@@ -91,3 +91,12 @@ r.addEventListener('upgradeneeded', (evt) => {
         }
     });
 })();
+
+
+var c = document.createElement('canvas');
+c.width = 480;
+c.height = 320;
+document.body.appendChild(c);
+var gl = c.getContext('webgl');
+gl.clearColor(Math.random(), Math.random(), Math.random(), 1.0);
+gl.clear(gl.COLOR_BUFFER_BIT);
