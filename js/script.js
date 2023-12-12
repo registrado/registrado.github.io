@@ -1,6 +1,6 @@
 const store = 'projects';
 const r = indexedDB.open('RegistradoDB', 1);
-fetch('projects.json').then((e)=>console.log(e)).catch((e)=>console.log(e));
+fetch('json/projects.json').then((e)=>console.log(e)).catch((e)=>console.log(e));
 r.addEventListener('error', (err) => {
 	console.error(err);
 });
