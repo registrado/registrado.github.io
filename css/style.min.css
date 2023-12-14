@@ -558,15 +558,15 @@ a:focus {
   	align-items: center;
 }
 
-.server_section .img-box {
+.server_section .video-container {
   	position: relative;
 }
 
-.server_section .img-box img {
+.server_section .video-container video {
   	width: 100%;
 }
 
-.server_section .img-box .play_btn {
+.server_section .video-container .play_btn {
   	-webkit-box-align: center;
   	-ms-flex-align: center;
   	align-items: center;
@@ -586,7 +586,7 @@ a:focus {
   	height: 65px;
 }
 
-.server_section .img-box .play_btn button {
+.server_section .video-container .play_btn button {
   	background-color: transparent;
   	background-color: var(--primary);
   	border: none;
@@ -599,7 +599,7 @@ a:focus {
   	z-index: 3;
 }
 
-.server_section .img-box .play_btn:before, .server_section .img-box .play_btn:after {
+.server_section .video-container .play_btn:before, .server_section .video-container .play_btn:after {
   	content: "";
   	background-color: var(--primary);
   	border-radius: 100%;
@@ -613,13 +613,13 @@ a:focus {
   	height: 100%;
 }
 
-.server_section .img-box .play_btn:before {
+.server_section .video-container .play_btn:before {
   	-webkit-animation: before-animation 1500ms infinite;
   	animation: before-animation 1500ms infinite;
   	z-index: 2;
 }
 
-.server_section .img-box .play_btn:after {
+.server_section .video-container .play_btn:after {
   	-webkit-animation: after-animation 1500ms infinite;
   	animation: after-animation 1500ms infinite;
   	z-index: 1;
