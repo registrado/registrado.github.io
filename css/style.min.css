@@ -79,6 +79,11 @@ body {
   	overflow-x: hidden;
 }
 
+iframe {
+	width: 100%;
+	height: 100vh;
+}
+
 .layout_padding {
   	padding: 90px 0;
 }
