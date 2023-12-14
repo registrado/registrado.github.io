@@ -1,5 +1,6 @@
 # registrado.github.io GitHub Page
 
+![Registrado Github Page](img/screenshot.jpg)
 ![Registrado](img/screenshot_registrado.png)
 
 
